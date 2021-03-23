@@ -1,0 +1,140 @@
+body{
+  font-family: Montserrat;
+}
+
+
+#title{
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: Montserrat-black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  }
+  h2{
+    color: #000;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+h3{
+  font-family: Montserrat-bold;
+  font-size: 1.5rem;
+}
+p{
+  color: #000;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.ml-auto{
+  margin-left: auto;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  margin-left: 30px;
+  position: absolute;
+}
+/* fitures */
+#features{
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.icon{
+  padding: 5%;
+  color: #6b011f;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Testimonial section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  font-family: Montserrat-bold;
+  background-color: #ff4c68;
+
+
+}
+.em-text{
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width: 10%;
+  margin: 0 3% 0 3%;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.dog-plan{
+  text-align: center;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 300px;
+}
+}
+/* Bottom-section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 50px 20px;
+  color: #fff;
+  font-family: Montserrat-black;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 3px 3px;
+}
+.icon-pack{
+  margin: 10px 10px;
+  color: #ff4c68;
+}
